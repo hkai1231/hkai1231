@@ -1,0 +1,223 @@
+style {
+    @font-face {
+        font-family: 'icomoon';
+        src: url('fonts/icomoon.eot?lbh2hm');
+        src: url('fonts/icomoon.eot?lbh2hm#iefix') format('embedded-opentype'),
+            url('fonts/icomoon.ttf?lbh2hm') format('truetype'),
+            url('fonts/icomoon.woff?lbh2hm') format('woff'),
+            url('fonts/icomoon.svg?lbh2hm#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+    }
+}
+
+i {
+    font-family: "uicons-regular-rounded";
+}
+
+.w {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 快捷導航模塊 */
+.shortcut {
+    height: 37px;
+    line-height: 37px;
+    background-color: #3b3b3b;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut ul li a {
+    color: #fff;
+    display: block;
+    padding: 0 8px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+}
+
+.shortcut ul li a button {
+    background: url(../images/btn.jpg);
+}
+
+.shortcut ul li a:hover {
+    background-color: #1679a3;
+}
+
+/* header模塊 */
+.header {
+    margin: o auto;
+    position: relative;
+    width: 1140px;
+    height: 75px;
+    line-height: 75px;
+
+}
+
+.logo {
+    position: absolute;
+    top: 12.5px;
+    width: 322px;
+    height: 51px;
+}
+
+.logo a {
+    display: block;
+    width: 322px;
+    height: 51px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.headerright {
+    position: absolute;
+    left: 640px;
+    height: 75px;
+}
+
+.headerright ul li {
+    float: left;
+}
+
+.headerright ul li a {
+    color: #3a3a3a;
+    display: block;
+    padding: 0 11px;
+    font-size: 16px;
+}
+
+.headerright ul li a:hover {
+    background-color: #237aa1;
+}
+
+/* 翻頁照片 */
+.page {
+    position: relative;
+    height: 485px;
+    background-color: aquamarine;
+}
+
+.pics img {
+    width: 100%;
+    position: absolute;
+
+}
+
+/* 輪播 */
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+    max-height: 1200px;
+}
+
+.carousel {
+    display: flex;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* 空白 */
+
+.blank {
+    height: 37px;
+}
+
+/* nav區域 */
+
+
+/* nav左 */
+.nav {
+    float: left;
+    margin: 0 auto;
+}
+
+.navl {
+    width: 277px;
+}
+
+.mu {
+    width: 250px;
+    font-size: 18px;
+    background-color: #E9E9E9;
+}
+
+.mu-txt {
+    color: #3a3a3a;
+}
+
+div[class^=mul] {
+    position: relative;
+    margin: 0 auto;
+    width: 230px;
+    height: 70px;
+}
+
+div[class^=mul] img {
+    float: left;
+
+}
+
+.d-txt {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    width: 147px;
+}
+
+.mu0 {
+    height: 54px;
+    width: 250px;
+    background: url(../images/link_bg_pc.png);
+}
+
+.mu1 {
+    height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+/* nav右 */
+.article {
+    float: right;
+    width: 893px;
+
+}
+
+.article-h {
+    width: 878px;
+    height: 45px;
+    background-color: #3b3b3b;
+    margin: 0 auto;
+
+}
