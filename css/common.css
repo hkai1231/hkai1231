@@ -1,21 +1,3 @@
-style {
-    @font-face {
-        font-family: 'icomoon';
-        src: url('fonts/icomoon.eot?lbh2hm');
-        src: url('fonts/icomoon.eot?lbh2hm#iefix') format('embedded-opentype'),
-            url('fonts/icomoon.ttf?lbh2hm') format('truetype'),
-            url('fonts/icomoon.woff?lbh2hm') format('woff'),
-            url('fonts/icomoon.svg?lbh2hm#icomoon') format('svg');
-        font-weight: normal;
-        font-style: normal;
-        font-display: block;
-    }
-}
-
-i {
-    font-family: "uicons-regular-rounded";
-}
-
 .w {
     width: 1170px;
     margin: 0 auto;
@@ -48,12 +30,16 @@ i {
 }
 
 .btn {
+    position: relative;
     width: 30px;
     height: 30px;
+    margin: 0 auto;
 }
 
-.shortcut ul li a button {
-    background: url(../images/btn.jpg);
+.btn img {
+    position: absolute;
+    top: 6px;
+    left: 6px;
 }
 
 .shortcut ul li a:hover {
@@ -200,24 +186,148 @@ div[class^=mul] img {
 
 
 
-
-
-
-
-
-
-
 /* nav右 */
+
+
+
+/* 標題 */
 .article {
+    position: relative;
     float: right;
     width: 893px;
 
 }
 
+.t {
+    width: 878px;
+    height: 520px;
+}
+
 .article-h {
+    position: absolute;
+    top: 20px;
     width: 878px;
     height: 45px;
     background-color: #3b3b3b;
     margin: 0 auto;
+}
 
+.article-h h3 {
+    color: #fff;
+    position: absolute;
+    bottom: 12px;
+    left: 25px;
+}
+
+.cblue {
+    position: absolute;
+    left: 25px;
+    top: 8px;
+    width: 101px;
+    height: 12px;
+    background: url(../images/title1_bg.png);
+}
+
+.px {
+    width: 878px;
+    height: 67px;
+    border-bottom: 2px solid #85d2d1;
+}
+
+/* 影片區 */
+.vdo {
+    position: absolute;
+    top: 90px;
+    width: 878px;
+    height: 430px;
+    background-color: blueviolet;
+}
+
+
+/* 導航模塊 */
+.n {
+    position: absolute;
+    top: 520px;
+    width: 878px;
+    height: 110px;
+    border-bottom: 3px solid #facc39;
+}
+
+.n ul {
+    position: absolute;
+    top: 29px;
+}
+
+.n ul li {
+    float: left;
+    height: 34px;
+}
+
+.n ul li a {
+    color: #3a3a3a;
+}
+
+.n ul li:hover {
+    background-color: #facc39;
+}
+
+
+/* 重要消息 */
+.n1 {
+    position: absolute;
+    top: 630px;
+    width: 878px;
+    height: 570px;
+    background-color: aqua;
+}
+
+/* 圖片 */
+.picture {
+    position: absolute;
+    top: 1215px;
+    width: 878px;
+    height: 215px;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.picture2 {
+    position: absolute;
+    top: 1445px;
+    width: 878px;
+    height: 570px;
+    background-color: #1679a3;
+}
+
+.picture2 .picture2-t {
+    position: relative;
+    width: 878px;
+    height: 260px;
+    border-bottom: 3px solid #3b3b3b;
+}
+
+.di {
+    width: 520px;
+    height: 238px;
+}
+
+.picture2 div img {
+    width: 100%;
+}
+
+.mtc {
+    position: absolute;
+    bottom: 0px;
+    left: 520px;
+    float: left;
+    width: 136px;
+    height: 44px;
+    background-color: #3b3b3b;
+}
+
+.mtc h3 {
+    color: #fff;
+    margin: 0 auto;
 }
